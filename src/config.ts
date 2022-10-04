@@ -6,7 +6,7 @@ export const SITE = {
 
 export const OPEN_GRAPH = {
 	image: {
-		src: 'https://github.com/zarfjs/zarf/blob/main/assets/social/banner.png?raw=true',
+		src: 'https://github.com/zarfjs/docs/blob/main/assets/social/banner.png?raw=true',
 		alt:
 			'Zarf logo on a expanse of dark space,' +
 			' with a tea-pot placed in the left background',
@@ -30,7 +30,7 @@ export const KNOWN_LANGUAGES = {
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
-export const GITHUB_EDIT_URL = `https://github.com/zarfjs/zarf/tree/main/docs`;
+export const GITHUB_EDIT_URL = `https://github.com/zarfjs/docs/tree/main/docs`;
 
 export const COMMUNITY_INVITE_URL = `https://astro.build/chat`;
 
