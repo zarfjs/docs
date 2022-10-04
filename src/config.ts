@@ -1,14 +1,14 @@
 export const SITE = {
-	title: 'Bun-Tea',
-	description: 'Bun-Tea is a Bun-powered, and Bun-only(for now) Web API framework with full Typescript support and performance in mind.',
+	title: 'Zarf',
+	description: 'Zarf is a Bun-powered, and Bun-only(for now) Web API framework with full Typescript support and performance in mind.',
 	defaultLanguage: 'en_US',
 };
 
 export const OPEN_GRAPH = {
 	image: {
-		src: 'https://github.com/one-aalam/bun-tea/blob/main/assets/social/banner.png?raw=true',
+		src: 'https://github.com/zarfjs/zarf/blob/main/assets/social/banner.png?raw=true',
 		alt:
-			'bun-tea logo on a expanse of dark space,' +
+			'Zarf logo on a expanse of dark space,' +
 			' with a tea-pot placed in the left background',
 	},
 	twitter: 'aftabbuddy',
@@ -30,7 +30,7 @@ export const KNOWN_LANGUAGES = {
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
-export const GITHUB_EDIT_URL = `https://github.com/one-aalam/bun-tea/tree/main/docs`;
+export const GITHUB_EDIT_URL = `https://github.com/zarfjs/zarf/tree/main/docs`;
 
 export const COMMUNITY_INVITE_URL = `https://astro.build/chat`;
 

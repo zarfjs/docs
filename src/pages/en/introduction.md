@@ -1,14 +1,14 @@
 ---
 title: 👋 Welcome
-description: Bun Tea intro
+description: Zarf intro
 layout: ../../layouts/MainLayout.astro
 ---
-`Bun-Tea` is a Bun-powered, and Bun-only(for now) Web API framework with full **Typescript support** and **performance** in mind.
+`Zarf` is a Bun-powered, and Bun-only(for now) Web API framework with full **Typescript support** and **performance** in mind.
 
 ## Getting Started
-Starting with `bun-tea` is as simple as instantiating the `BunTea` class, attaching route handlers and finally starting the server
+Starting with `Zarf` is as simple as instantiating the `BunTea` class, attaching route handlers and finally starting the server
 ```ts
-import { BunTea } from "bun-tea"
+import { BunTea } from "@zarfjs/zarf"
 
 const app = new BunTea()
 
@@ -19,7 +19,7 @@ app.get("/hello", (ctx) => {
 })
 
 app.get("/", (ctx) => {
-    return ctx.html(`Welcome to Bun-Tea App server`)
+    return ctx.html(`Welcome to Zarf App server`)
 })
 
 app.listen({

@@ -15,7 +15,7 @@ app.get("/products/:id", (ctx, params) => {
     })
 })
 ```
-`bun-tea` supports all the common URL patterns you'd expect in a Web-App/API framework
+`Zarf` supports all the common URL patterns you'd expect in a Web-App/API framework
 ```ts
 app.get("/user/:name/books/:title", (ctx, params) => {
     const { name, title } = params
