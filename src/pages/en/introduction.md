@@ -8,9 +8,9 @@ layout: ../../layouts/MainLayout.astro
 ## Getting Started
 Starting with `Zarf` is as simple as instantiating the `BunTea` class, attaching route handlers and finally starting the server
 ```ts
-import { BunTea } from "@zarfjs/zarf"
+import { Zarf } from "@zarfjs/zarf"
 
-const app = new BunTea()
+const app = new Zarf()
 
 app.get("/hello", (ctx) => {
     return ctx.json({
